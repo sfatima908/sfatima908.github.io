@@ -115,7 +115,6 @@ function initComponents() {
   //
 	// your custom plugins init here
 	//
-
 }
 
 
@@ -650,7 +649,7 @@ function pageRevealEffects() {
     extendTimeline: true,
     defaults: {
       easing: 'quart.out',
-      duration: 3.0,
+      duration: 2.0,
       y: '90%',
     },
   });
@@ -2474,3 +2473,4 @@ const PJAX = (function() {
 
 
 })();
+
