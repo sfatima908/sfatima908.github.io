@@ -158,7 +158,7 @@ const Preloader = (function() {
           }, {
             scaleY: 1,
             ease: 'none',
-            duration: 1,
+            duration: 0.3,
             delay: 0.3,
             onStart: () => {
               bg.classList.add('origin-top');
@@ -224,7 +224,7 @@ const Preloader = (function() {
           })
           .to(progressInner, {
             scaleY: 1,
-            duration: 1,
+            duration: 0.3,
             ease: 'none',
           }, '>-0.3')
     
