@@ -25,7 +25,7 @@
   <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
   <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
   <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/&roid-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
@@ -34,7 +34,7 @@
   <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
 
-  <title>Suha* | About</title>
+  <title>Stukram</title>
 </head>
 
 <body class="preloader-visible" data-barba="wrapper">
@@ -83,8 +83,11 @@
         <!-- header__bar start -->
         <div class="header__bar">
           <div class="header__logo js-header-logo">
-            <a data-barba href="/">
-              <img class="header__logo__dark js-lazy" data-srcset="img/logo/SF-dark.png 1x, img/logo/SF-dark.png 2x" data-src="img/logo/SF-dark.png" alt="Logo">
+            <a data-barba href="home-1.html">
+              <img class="header__logo__light js-lazy" data-srcset="img/logo/logo-light.png 1x, img/logo/logo-light-x2.png 2x" data-src="img/logo/logo-light.png" alt="Logo">
+            </a>
+            <a data-barba href="home-1.html">
+              <img class="header__logo__dark js-lazy" data-srcset="img/logo/logo-dark.png 1x, img/logo/logo-dark-x2.png 2x" data-src="img/logo/logo-dark.png" alt="Logo">
             </a>
           </div>
 
@@ -303,7 +306,7 @@
 
                       <div class="nav__info__content text-lg text-white mt-16">
                         <p>
-                          Studio Stukram 1910 Gateway Road, Portl&, Oregon 97230
+                          Studio Stukram 1910 Gateway Road, Portland, Oregon 97230
                         </p>
                       </div>
                     </div>
@@ -342,40 +345,28 @@
       <!-- header end -->
 
 
-      <!-- page header start -->
-      <section class="d-flex align-items-center md:d-block h-100vh md:h-unset">
+      <!-- section start -->
+      <section class="layout-pt-pageHeader layout-pb-xs">
         <!-- container start -->
-        <div data-anim-wrap class="container">
+        <div class="container">
           <!-- row start -->
-          <div class="row align-items-center md:mt-120">
-            <div class="col-lg-5 col-md-8">
-              <div data-anim-child="slide-up" class="sectionHeading -md">
+          <div class="row">
+            <div class="col-xl-7 col-lg-8">
+              <ul class="breadcrumbs text-black mb-40">
+                <li class="breadcrumbs-item">
+                  <a data-barba href="home-1.html">
+                    Home
+                  </a>
+                </li>
+                <li class="breadcrumbs-item active" aria-current="page">
+                  Simple Grid 2
+                </li>
+              </ul>
+
+              <div class="sectionHeading -lg">
                 <h1 class="sectionHeading__title">
-                  I design to live, & I live to design.
+                  Simple Grid 2 Cols
                 </h1>
-              </div>
-
-              <div data-anim-child="slide-up delay-1">
-                <p class="text-lg text-black fw-500 mt-32">
-                  I believe creating something from nothing is wonderful. It is like tapping into the spiritual world & extracting a thing of beauty from it.
-                </p>
-              </div>
-
-              <div data-anim-child="slide-up delay-2">
-                <p class="text-lg leading-5xl mt-24">
-                   I've been teaching myself graphic design since I was 11. Although my background was in Media Studies & Literature, I've always nurtured my creative side. I l&ed my first job with just a portfolio. 
-                </p>
-                <p class="text-lg leading-5xl mt-24">
-                     Having lived in Kuwait & India for most of my youth, I'm currently based in Toronto, where I've studied Interactive Media Design & graduated with a 4.0 GPA. Above all, I'm learner & a stranger to life, on a mission to add more cool adjectives to my portfolio.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-6 offset-lg-1 md:mt-56">
-              <div data-anim-child="img-right cover-white delay-6">
-                <div data-parallax="0.7" class="h-100vh md:h-70vh">
-                  <div data-parallax-target class="bg-image js-lazy" data-bg="img/about/aboutme.png"></div>
-                </div>
               </div>
             </div>
           </div>
@@ -383,50 +374,233 @@
         </div>
         <!-- container end -->
       </section>
-      <!-- page header end -->
-      
+      <!-- section end -->
+
+
       <!-- section start -->
-      <section class="layout-pt-lg layout-pb-sm">
-        <div data-anim-wrap>
+      <section class="layout-pt-md layout-pb-md">
+        <div class="section-filter">
 
           <!-- container start -->
           <div class="container">
             <!-- row start -->
-            <div class="row justify-content-between">
-
-              <div class="col-lg-6 col-md-10">
-                <div data-anim-child="slide-up" class="sectionHeading -sm">
-                  <h1 class="sectionHeading__title">
-                    Some things I like: <br>📚🏖️🚶‍♀️☕✈️⚖️🥗💡✍🏼🚲
-                  </h1>
-                  
+            <div class="row y-gap-32 justify-content-between align-items-center">
+              <div class="col-auto">
+                <div class="filter-button-group text-dark fw-500">
+                  <button class="button mr-20 btn-active" data-filter="*">Show All</button>
+                  <button class="button mr-20" data-filter=".web_design">Web Design</button>
+                  <button class="button mr-20" data-filter=".branding">Branding</button>
+                  <button class="button mr-20" data-filter=".development">Development</button>
                 </div>
               </div>
 
+              <div class="col-auto">
+                <a class="button -md -outline-black text-black" href="#">
+                  See All Works
+                </a>
+              </div>
+            </div>
+            <!-- row end -->
+          </div>
+          <!-- container end -->
 
-              <div class="col-lg-6 col-md-10 md:mt-32 sm:mt-20">
-                <div data-anim-child="slide-up delay-1">
-                  
-                  <p class="text-lg sm:text-base md:mt-20">
-                    • Working with a creative & passionate team.
-                  </p>
-                  <p class="text-lg sm:text-base mt-32 md:mt-20">
-                    • Troubleshooting problems within constraints & finding a solution.
-                  </p>
-                  <p class="text-lg sm:text-base mt-32 md:mt-20">
-                    • A collaborative spirit with fellow creatives & clients.
-                  </p>
-                  <p class="text-lg sm:text-base mt-32 md:mt-20">
-                    • Travelling & imbibing the experience into art or my work.
-                  </p>
-                  <p class="text-lg sm:text-base mt-32 md:mt-20">
-                    • Self-initiated projects & learning.
-                  </p>
+
+          <!-- container start -->
+          <div class="container layout-pt-sm">
+            <div class="masonry -col-2 -gap-32">
+              <div class="masonry__sizer"></div>
+
+              <div class="masonry__item  web_design">
+                <div data-anim="slide-up" class="portfolioCard -type-2 -hover">
+                  <div class="ratio">
+                    <div class="portfolioCard__img">
+                      <div class="portfolioCard__img__inner">
+                        <div class="bg-image js-lazy" data-bg="img/projects/square/1.jpg"></div>
+                      </div>
+                    </div>
+
+                    <div class="portfolioCard__content">
+                      <a href="#" class="portfolioCard__category text-light mb-8">Web Design</a>
+                      <h3 class="portfolioCard__title text-3xl md:text-2xl fw-600 text-white">Slumber</h3>
+                    </div>
+
+                    <a href="portfolio-single-1.html" data-barba class="portfolioCard__link"></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="masonry__item  branding">
+                <div data-anim="slide-up" class="portfolioCard -type-2 -hover">
+                  <div class="ratio">
+                    <div class="portfolioCard__img">
+                      <div class="portfolioCard__img__inner">
+                        <div class="bg-image js-lazy" data-bg="img/projects/square/2.jpg"></div>
+                      </div>
+                    </div>
+
+                    <div class="portfolioCard__content">
+                      <a href="#" class="portfolioCard__category text-light mb-8">Branding</a>
+                      <h3 class="portfolioCard__title text-3xl md:text-2xl fw-600 text-white">Apple Tonik</h3>
+                    </div>
+
+                    <a href="portfolio-single-2.html" data-barba class="portfolioCard__link"></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="masonry__item  development">
+                <div data-anim="slide-up" class="portfolioCard -type-2 -hover">
+                  <div class="ratio">
+                    <div class="portfolioCard__img">
+                      <div class="portfolioCard__img__inner">
+                        <div class="bg-image js-lazy" data-bg="img/projects/square/3.jpg"></div>
+                      </div>
+                    </div>
+
+                    <div class="portfolioCard__content">
+                      <a href="#" class="portfolioCard__category text-light mb-8">Development</a>
+                      <h3 class="portfolioCard__title text-3xl md:text-2xl fw-600 text-white">Black Sneakers</h3>
+                    </div>
+
+                    <a href="portfolio-single-3.html" data-barba class="portfolioCard__link"></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="masonry__item  branding">
+                <div data-anim="slide-up" class="portfolioCard -type-2 -hover">
+                  <div class="ratio">
+                    <div class="portfolioCard__img">
+                      <div class="portfolioCard__img__inner">
+                        <div class="bg-image js-lazy" data-bg="img/projects/square/4.jpg"></div>
+                      </div>
+                    </div>
+
+                    <div class="portfolioCard__content">
+                      <a href="#" class="portfolioCard__category text-light mb-8">Branding</a>
+                      <h3 class="portfolioCard__title text-3xl md:text-2xl fw-600 text-white">Steel Bottle</h3>
+                    </div>
+
+                    <a href="portfolio-single-4.html" data-barba class="portfolioCard__link"></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="masonry__item  web_design">
+                <div data-anim="slide-up" class="portfolioCard -type-2 -hover">
+                  <div class="ratio">
+                    <div class="portfolioCard__img">
+                      <div class="portfolioCard__img__inner">
+                        <div class="bg-image js-lazy" data-bg="img/projects/square/5.jpg"></div>
+                      </div>
+                    </div>
+
+                    <div class="portfolioCard__content">
+                      <a href="#" class="portfolioCard__category text-light mb-8">Web Design</a>
+                      <h3 class="portfolioCard__title text-3xl md:text-2xl fw-600 text-white">Whisper Pink</h3>
+                    </div>
+
+                    <a href="portfolio-single-5.html" data-barba class="portfolioCard__link"></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="masonry__item  development">
+                <div data-anim="slide-up" class="portfolioCard -type-2 -hover">
+                  <div class="ratio">
+                    <div class="portfolioCard__img">
+                      <div class="portfolioCard__img__inner">
+                        <div class="bg-image js-lazy" data-bg="img/projects/square/6.jpg"></div>
+                      </div>
+                    </div>
+
+                    <div class="portfolioCard__content">
+                      <a href="#" class="portfolioCard__category text-light mb-8">Development</a>
+                      <h3 class="portfolioCard__title text-3xl md:text-2xl fw-600 text-white">Summer Time</h3>
+                    </div>
+
+                    <a href="portfolio-single-6.html" data-barba class="portfolioCard__link"></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="masonry__item  web_design">
+                <div data-anim="slide-up" class="portfolioCard -type-2 -hover">
+                  <div class="ratio">
+                    <div class="portfolioCard__img">
+                      <div class="portfolioCard__img__inner">
+                        <div class="bg-image js-lazy" data-bg="img/projects/square/7.jpg"></div>
+                      </div>
+                    </div>
+
+                    <div class="portfolioCard__content">
+                      <a href="#" class="portfolioCard__category text-light mb-8">Web Design</a>
+                      <h3 class="portfolioCard__title text-3xl md:text-2xl fw-600 text-white">Altered</h3>
+                    </div>
+
+                    <a href="portfolio-single-1.html" data-barba class="portfolioCard__link"></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="masonry__item  web_design">
+                <div data-anim="slide-up" class="portfolioCard -type-2 -hover">
+                  <div class="ratio">
+                    <div class="portfolioCard__img">
+                      <div class="portfolioCard__img__inner">
+                        <div class="bg-image js-lazy" data-bg="img/projects/square/8.jpg"></div>
+                      </div>
+                    </div>
+
+                    <div class="portfolioCard__content">
+                      <a href="#" class="portfolioCard__category text-light mb-8">Web Design</a>
+                      <h3 class="portfolioCard__title text-3xl md:text-2xl fw-600 text-white">Immersive design</h3>
+                    </div>
+
+                    <a href="portfolio-single-2.html" data-barba class="portfolioCard__link"></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="masonry__item  web_design">
+                <div data-anim="slide-up" class="portfolioCard -type-2 -hover">
+                  <div class="ratio">
+                    <div class="portfolioCard__img">
+                      <div class="portfolioCard__img__inner">
+                        <div class="bg-image js-lazy" data-bg="img/projects/square/9.jpg"></div>
+                      </div>
+                    </div>
+
+                    <div class="portfolioCard__content">
+                      <a href="#" class="portfolioCard__category text-light mb-8">Web Design</a>
+                      <h3 class="portfolioCard__title text-3xl md:text-2xl fw-600 text-white">Business model</h3>
+                    </div>
+
+                    <a href="portfolio-single-3.html" data-barba class="portfolioCard__link"></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="masonry__item  web_design">
+                <div data-anim="slide-up" class="portfolioCard -type-2 -hover">
+                  <div class="ratio">
+                    <div class="portfolioCard__img">
+                      <div class="portfolioCard__img__inner">
+                        <div class="bg-image js-lazy" data-bg="img/projects/square/10.jpg"></div>
+                      </div>
+                    </div>
+
+                    <div class="portfolioCard__content">
+                      <a href="#" class="portfolioCard__category text-light mb-8">Web Design</a>
+                      <h3 class="portfolioCard__title text-3xl md:text-2xl fw-600 text-white">Stonework</h3>
+                    </div>
+
+                    <a href="portfolio-single-4.html" data-barba class="portfolioCard__link"></a>
+                  </div>
                 </div>
               </div>
 
             </div>
-            <!-- row end -->
           </div>
           <!-- container end -->
 
@@ -434,136 +608,78 @@
       </section>
       <!-- section end -->
 
-      <!-- section start -->
-      <section class="layout-pt-md layout-pb-xl">
-        <!-- container start -->
-        <div class="container">
-          <!-- row start -->
-          <div class="row">
-            <div class="col-xl-5 col-lg-8 col-md-10">
-              <div class="sectionHeading -lg">
-                <p class="sectionHeading__subtitle">
-                  Services
-                </p>
-                <h2 class="sectionHeading__title">
-                  A Wide Range of Services
-                </h2>
-              </div>
-            </div>
-          </div>
-          <!-- row end -->
 
-        
-          <!-- row start -->
-          <div data-anim-wrap class="row x-gap-48 y-gap-48 layout-pt-md">
-
-            <div class="col-lg-3 col-sm-6">
-              <div class="serviceCard">
-                <div class="serviceCard__content">
-                  <div class="d-flex align-items-center ml-minus-4">
-                    <div class="px-20 py-20 bg-white shadow-light rounded-full">
-                      <i class="size-sm str-width-md text-accent" data-feather="layout"></i>
-                    </div>
-                  </div>
-
-                  <h3 class="serviceCard__title text-2xl fw-500 text-black mt-40 md:mt-32">
-                    UI/UX
-                  </h3>
-
-                  <p class="serviceCard__text mt-20 md:mt-12">
-                    I've created several concept screens and user flows. My work in the UI/UX field is research heavy and yet minimally designed with the user in mind at all points.
-                  </p>
-
-                
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-sm-6">
-              <div class="serviceCard">
-                <div class="serviceCard__content">
-                  <div class="d-flex align-items-center ml-minus-4">
-                    <div class="px-20 py-20 bg-white shadow-light rounded-full">
-                      <i class="size-sm str-width-md text-accent" data-feather="edit"></i>
-                    </div>
-                  </div>
-
-                  <h3 class="serviceCard__title text-2xl fw-500 text-black mt-40 md:mt-32">
-                    Branding
-                  </h3>
-
-                  <p class="serviceCard__text mt-20 md:mt-12">
-                    Rebranding, logos, business stationary, social media content, custom iconography, packaging, brand language & identity are some of the services I've provided.
-                  </p>
-
-                
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-sm-6">
-              <div class="serviceCard">
-                <div class="serviceCard__content">
-                  <div class="d-flex align-items-center ml-minus-4">
-                    <div class="px-20 py-20 bg-white shadow-light rounded-full">
-                      <i class="size-sm str-width-md text-accent" data-feather="play-circle"></i>
-                    </div>
-                  </div>
-
-                  <h3 class="serviceCard__title text-2xl fw-500 text-black mt-40 md:mt-32">
-                    Motion Graphics
-                  </h3>
-
-                  <p class="serviceCard__text mt-20 md:mt-12">
-                    Explainer & introductory videos, quirky animations, GIFs are some of the works I've done. For this I create storyboards, edit the audio, & write the script too.
-                  </p>
-
-                
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-sm-6">
-              <div class="serviceCard">
-                <div class="serviceCard__content">
-                  <div class="d-flex align-items-center ml-minus-4">
-                    <div class="px-20 py-20 bg-white shadow-light rounded-full">
-                      <i class="size-sm str-width-md text-accent" data-feather="monitor"></i>
-                    </div>
-                  </div>
-
-                  <h3 class="serviceCard__title text-2xl fw-500 text-black mt-40 md:mt-32">
-                    Web Design
-                  </h3>
-
-                  <p class="serviceCard__text mt-20 md:mt-12">
-                    I've a working knowledge of HTML, CSS, Javascript and Github and created websites from scratch based on requirements of each client.
-                  </p>
-
-                
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <!-- row end -->
-        </div>
-        <!-- container end -->
-      </section>
-
-      
       <!-- footer start -->
-      <footer class="footer -type-1">
+      <footer class="footer -type-1 bg-dark-1">
         <!-- container start -->
         <div class="container">
 
-          <div class="footer__bottom">
+          <div class="footer__top">
+            <!-- row start -->
+            <div class="row y-gap-48 justify-content-between">
+              <div class="col-lg-auto col-sm-12">
+                <a href="home-1.html" class="footer__logo text-white">
+                  Stukram.
+                </a>
+              </div>
+
+              <div class="col-lg-3 col-sm-6">
+                <h4 class="text-xl fw-500 text-white">
+                  Studio
+                </h4>
+
+                <div class="footer__content text-base text-light mt-16 sm:mt-12">
+                  <p>Studio Stukram 1910 Gateway Road, Portland, Oregon 97230</p>
+                  <p class="mt-8">hello@stukram.com</p>
+                  <p class="mt-8">+1 202 555 0171</p>
+                </div>
+              </div>
+
+              <div class="col-lg-auto col-sm-4">
+                <h4 class="text-xl fw-500 text-white">
+                  Links
+                </h4>
+
+                <div class="footer__content text-base text-light mt-16 sm:mt-12">
+                  <div><a data-barba href="blog-1.html" class="button -underline">Blog</a></div>
+                  <div><a data-barba href="about-1.html" class="button -underline mt-4">Abous Us</a></div>
+                  <div><a data-barba href="#" class="button -underline mt-4">Shop</a></div>
+                  <div><a data-barba href="contact-1.html" class="button -underline mt-4">Contacts</a></div>
+                </div>
+              </div>
+
+              <div class="col-lg-auto col-auto">
+                <h4 class="text-xl fw-500 text-white">
+                  Follow us
+                </h4>
+
+                <div class="social -bordered mt-16 sm:mt-12">
+                  <a class="social__item text-white border-light" href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                  <a class="social__item text-white border-light" href="#">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                  <a class="social__item text-white border-light" href="#">
+                    <i class="fa fa-youtube-play"></i>
+                  </a>
+                  <a class="social__item text-white border-light" href="#">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- row end -->
+          </div>
+
+
+          <div class="footer__bottom -light">
             <!-- row start -->
             <div class="row">
               <div class="col">
                 <div class="footer__copyright">
-                  <p class="text-dark">
-                    @ 2021, Suha Fatima. 
+                  <p class="text-light">
+                    @ 2020, Stukram. Made with passion by Krellion.
                   </p>
                 </div>
               </div>
