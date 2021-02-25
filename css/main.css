@@ -4440,16 +4440,89 @@ body.is-cursor-active * {
   }
 }
 
+
+.masthead.-type-3 {}
+
+
+.masthead.-type-3 .masthead__content {
+  position: static !important;
+}
+
+.masthead.-type-3 .container {
+  position: static;
+}
+.masthead.-type-3 .col-auto {
+  position: static;
+}
+
+.masthead .masthead-shapes.-group-2 {
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; */
+}
+
+.masthead .masthead-shapes.-group-2 > div {
+  position: absolute;
+  top: 25vh;
+  right: 3vw;
+  width: 55%;
+}
+
+@media (max-width: 991px) {
+  .masthead .masthead-shapes.-group-2 > div {
+    position: absolute;
+    top: 30vh;
+    right: 3vw;
+    width: 60%;
+  }
+}
+
+@media (max-width: 767px) {
+  .masthead .masthead-shapes.-group-2 > div {
+    position: relative;
+    top: unset;
+    right: unset;
+    width: 60%;
+  }
+}
+
+@media (max-width: 575px) {
+  .masthead .masthead-shapes.-group-2 > div {
+    /* position: relative; */
+    /* top: unset; */
+    left: -36px;
+    width: 80%;
+    padding-top: 6px;
+    padding-bottom: 24px;
+  }
+}
+
+.masthead .masthead-shapes.-group-2 img {
+  width: 100%;
+  height: auto;
+}
+
 .masthead .masthead-shapes.-group-2 .-item-1 {
-  top: 10vw;
-  right: 14.3vw;
+  /* top: 10vw;
+  right: 14.3vw; */
+  /* z-index: 0; */
+  /* top: 10vh; */
+  /* right: 10vw; */
 }
 
 .masthead .masthead-shapes.-group-2 .-item-1 .masthead-shapes__shape {
-  width: 35rem;
+  /* width: 35rem;
   height: 35rem;
-  border-radius: 100%;
+  border-radius: 100%; */
 }
+
+/* .masthead .masthead-shapes.-group-2 .-item-1 .masthead-shapes__shape img {
+  width: 40%;
+  height: auto;
+} */
+
 
 @media (max-width: 991px) {
   .masthead .masthead-shapes.-group-2 .-item-1 {
@@ -4636,10 +4709,6 @@ body.is-cursor-active * {
     height: 140vw;
   }
 }
-
-/*--------------------------------------------------
-	34. Masthead single portfolio project
----------------------------------------------------*/
 .masthead.-type-work-1.-full-screen .masthead__content {
   padding-top: 0;
   height: 100vh;
@@ -4647,8 +4716,29 @@ body.is-cursor-active * {
   align-items: flex-end;
 }
 
-.masthead.-type-work-1 .masthead__content {
+.masthead.-type-work-1.-project-page-2 .masthead__content {
   padding-top: 16.25rem;
+  padding-bottom: 5rem;
+}
+
+.order-1 {
+  order: 1 !important;
+}
+.order-2 {
+  order: 2 !important;
+}
+
+@media (max-width: 991px) {
+  .md\:order-1 {
+    order: 1 !important;
+  }
+  .md\:order-2 {
+    order: 2 !important;
+  }
+}
+
+.masthead.-type-work-1 .masthead__content {
+  padding-top: 7rem;
   padding-bottom: 5rem;
 }
 
@@ -4701,8 +4791,13 @@ body.is-cursor-active * {
   padding-bottom: 0.25rem;
 }
 
-.masthead.-type-work-1 .masthead__info__wrap {
+.masthead.-type-work-1.-project-page-2 .masthead__info__wrap {
   margin-top: 13.75rem;
+}
+
+.masthead.-type-work-1 .masthead__info__wrap {
+  /* margin-top: 13.75rem; */
+  margin-top: 7rem;
 }
 
 @media (max-width: 991px) {
