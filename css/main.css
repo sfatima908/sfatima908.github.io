@@ -2797,7 +2797,14 @@ h6 {
 
 @media (max-width: 575px) {
   .nav__info {
-    display: none;
+    /* display: none; */
+  }
+
+  .nav__content__right {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-left: 20px;
+    margin-top: 30px;
   }
 }
 
